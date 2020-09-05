@@ -2,8 +2,9 @@ PATH
   remote: ../tailwind_form_component
   specs:
     tailwind_form_components (0.1.0)
-      actionpack (>= 5.0)
-      activemodel (>= 5.0)
+      actionpack
+      activemodel
+      rails (~> 6.0.3, >= 6.0.3.1)
       view_component
 
 GEM
